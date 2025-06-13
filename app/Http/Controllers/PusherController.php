@@ -18,13 +18,13 @@ class PusherController extends Controller
     public function broadcast(Request $request)
     {
         // Handle CORS untuk development
-        // if ($request->isMethod('OPTIONS')) {
-        //     return response()->json('OK', 200, [
-        //         'Access-Control-Allow-Origin' => '*',
-        //         'Access-Control-Allow-Methods' => 'POST, GET, OPTIONS',
-        //         'Access-Control-Allow-Headers' => 'Content-Type, X-CSRF-TOKEN, Accept'
-        //     ]);
-        // }
+        if ($request->isMethod('OPTIONS')) {
+            return response()->json('OK', 200, [
+                'Access-Control-Allow-Origin' => '*',
+                'Access-Control-Allow-Methods' => 'POST, GET, OPTIONS',
+                'Access-Control-Allow-Headers' => 'Content-Type, X-CSRF-TOKEN, Accept'
+            ]);
+        }
 
         // Validasi input
         $request->validate([
