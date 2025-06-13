@@ -11,7 +11,7 @@
         "APP_ENV": "local",
         "APP_DEBUG": "true",
         "APP_URL": "http://localhost",
-        "APP_KEY": "base64:APP_KEY=base64:axD5vy9Au0tsgZefvofj7MOTmPfjCEqD07bhbztZHb0=",
+        "APP_KEY": "base64:lKMh0rFgPR/XqBsqMSgy2dQLblNfch4/JnmX3S95lsw=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE" : "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
@@ -19,7 +19,7 @@
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
         "CACHE_DRIVER": "file",
-        "LOG_CHANNEL": "stack",
+        "LOG_CHANNEL": "null",
         "SESSION_DRIVER": "file",
         "DB_CONNECTION": "sqlite"
     }
