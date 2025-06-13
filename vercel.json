@@ -9,7 +9,7 @@
     ],
     "env": {
         "APP_ENV": "local",
-        "APP_DEBUG": "true",
+        "APP_DEBUG": "false",
         "APP_URL": "http://localhost",
         "APP_KEY": "base64:lKMh0rFgPR/XqBsqMSgy2dQLblNfch4/JnmX3S95lsw=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
@@ -19,7 +19,7 @@
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
         "CACHE_DRIVER": "file",
-        "LOG_CHANNEL": "stderr",
+        "LOG_CHANNEL": "null",
         "SESSION_DRIVER": "cookie",
         "DB_CONNECTION": "sqlite"
     }
